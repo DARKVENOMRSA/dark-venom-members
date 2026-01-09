@@ -8,46 +8,91 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
       background: #f2f5f9;
       color: #222;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 860px;
       margin: auto;
-      padding: 20px;
+      padding: 24px 16px;
     }
 
     .card {
       background: #ffffff;
-      border-radius: 14px;
-      padding: 22px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
     }
 
-    h1 {
-      color: #1a73e8;
+    .header {
       text-align: center;
-      margin-bottom: 12px;
+      margin-bottom: 24px;
+    }
+
+    .header h1 {
+      margin: 0;
+      color: #1a73e8;
+      font-size: 26px;
+    }
+
+    .header p {
+      margin-top: 6px;
+      font-size: 14px;
+      color: #555;
     }
 
     h2 {
-      margin-top: 24px;
+      margin-top: 28px;
+      margin-bottom: 8px;
+      font-size: 18px;
+      color: #1a73e8;
     }
 
     p {
+      font-size: 15px;
+      line-height: 1.7;
+      margin: 6px 0 14px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 10px 0 16px 0;
+    }
+
+    li {
+      margin-bottom: 8px;
       line-height: 1.6;
-      margin-bottom: 12px;
+      font-size: 15px;
+    }
+
+    .divider {
+      height: 1px;
+      background: #e0e0e0;
+      margin: 22px 0;
     }
 
     .back {
-      display: block;
-      margin-top: 24px;
-      text-align: center;
+      display: inline-block;
+      margin-top: 26px;
+      padding: 10px 16px;
+      border-radius: 10px;
+      background: #e8f0fe;
       color: #1a73e8;
-      font-weight: bold;
+      font-weight: 600;
       text-decoration: none;
+    }
+
+    .back:hover {
+      background: #dce8ff;
+    }
+
+    .footer-note {
+      margin-top: 30px;
+      font-size: 13px;
+      color: #777;
+      text-align: center;
     }
   </style>
 </head>
@@ -57,48 +102,60 @@
 <div class="container">
   <div class="card">
 
-    <h1>Terms & Conditions</h1>
+    <div class="header">
+      <h1>Terms & Conditions</h1>
+      <p>DARKVENOM VPN – Usage & Policy Agreement</p>
+    </div>
 
     <p>
-      By accessing or using <strong>DARKVENOM VPN</strong>, you agree to be bound
-      by these Terms & Conditions. If you do not agree, do not use the service.
+      By accessing or using <strong>DARKVENOM VPN</strong>, you agree to be bound by
+      these Terms & Conditions. If you do not agree, please discontinue use of the service.
     </p>
+
+    <div class="divider"></div>
 
     <h2>1. Usage Policy</h2>
     <p>
-      DARKVENOM VPN is intended solely for privacy and security purposes.
-      Users are prohibited from engaging in illegal, abusive, or malicious
-      activities while using the service.
+      DARKVENOM VPN is provided strictly for privacy and security purposes.
+      Users must comply with all applicable local and international laws.
     </p>
+    <ul>
+      <li>No illegal or unlawful activities</li>
+      <li>No abuse, spam, or network disruption</li>
+      <li>No activities that violate third-party rights</li>
+    </ul>
 
     <h2>2. Service Availability</h2>
     <p>
-      We do not guarantee uninterrupted service. Servers, configurations,
-      features, or access may change or be discontinued at any time.
+      We do not guarantee uninterrupted access. Servers, configurations,
+      protocols, or features may change or be discontinued at any time
+      without prior notice.
     </p>
 
     <h2>3. User Responsibility</h2>
     <p>
-      Users are solely responsible for their actions while using the VPN.
-      DARKVENOM VPN is not liable for misuse or third-party actions.
+      Users are solely responsible for how they use the VPN service.
+      DARKVENOM VPN is not liable for misuse, data loss, or damages
+      resulting from user actions.
     </p>
 
     <h2>4. Updates & Modifications</h2>
     <p>
-      These terms may be updated periodically without notice.
-      Continued use of the service constitutes acceptance of the updated terms.
+      These terms may be updated periodically. Continued use of the
+      application after updates implies acceptance of the revised terms.
     </p>
 
     <h2>5. Disclaimer</h2>
     <p>
-      The service is provided “as is” without warranties of any kind.
-      We are not responsible for data loss, service interruptions,
-      or damages arising from use of the application.
+      The service is provided “as is” without warranties of any kind,
+      either express or implied. Use of the service is at your own risk.
     </p>
 
-    <a class="back" href="index.html">
-      ← Back to Download Page
-    </a>
+    <a class="back" href="index.html">← Back to Download Page</a>
+
+    <div class="footer-note">
+      © 2026 TRS🇻🇦 MANAGEMENT TEAM. All rights reserved.
+    </div>
 
   </div>
 </div>
